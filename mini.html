@@ -1,0 +1,1659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recipe Book</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />    
+    <link rel="icon" href="favicon.ico" sizes="16x16" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" sizes="32x32" type="image/x-icon" />   
+    <link rel="icon" href="favicon.png" sizes="any" type="image/png" />  
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+
+            <img src="android-chrome-512x512.png" alt="Recipe Book Logo">
+
+            <div class="rbhead">
+            <h1>Recipe Book</h1>
+            <p>Discover delectable recipes on our website!</p>
+
+            </div>
+            
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                
+                <li class="dropdown">
+                    <a href="#" class="dropbtn" id="Categories">Categories <i class="fas fa-caret-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#appetizers">Appetizers</a>
+                        <a href="#maindish">Main Dishes</a>
+                        <a href="#dessert">Desserts</a>
+                    </div>
+                </li>
+                <li id="view-recipes"><a href="#">View Recipes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#login" class="losi">Login</a></li>
+                <li><a href="#signin" class="losi">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <main>
+
+        <section id="recipes" class="allrecipes">
+
+
+            <section class="featured-recipe">
+                <h2>Featured Recipe</h2>
+                <div class="cardcontainer">
+
+                    
+
+
+                    
+                    <div class="recipe-card" data-title="Fish Chilli" data-ingredients="
+                        
+                            For Marination: 
+
+                                | 500 grams boneless fish fillets (cut into bite-sized pieces)
+                              | 1 tablespoon ginger-garlic paste
+                              | 1 tablespoon soy sauce
+                               | 1 tablespoon red chili sauce
+                               | 1/2 teaspoon black pepper powder
+                               | Salt to taste
+                                
+                            For Batter:
+                            | 1/2 cup all-purpose flour (maida)
+                            | 1/4 cup cornflour
+                            |  1/2 teaspoon baking powder
+                            |  Water (as needed)
+                            |  Salt to taste
+                            For the Sauce:
+                            | 2 tablespoons oil
+                            |  1 tablespoon ginger-garlic paste
+                            |   1 cup bell peppers (capsicum), thinly sliced (you can use a mix of colors)
+                            |   1 cup onions, thinly sliced
+                            |   2-3 green chilies, finely chopped
+                            |   2 tablespoons soy sauce
+                            |    1 tablespoon red chili sauce
+                            |   1 tablespoon tomato ketchup
+                            |   1 teaspoon vinegar
+                            |   1 teaspoon sugar
+                            |   Salt to taste
+                            |   1 cup water
+                            For Garnish:
+                            |   Spring onions, finely chopped
+                            |    Fresh coriander leaves, chopped"
+
+                        data-recipe=
+                        "Marinate the Fish:
+
+                        In a bowl, mix fish pieces with ginger-garlic paste, soy sauce, red chili sauce, black pepper powder, and salt.
+                        Let it marinate for at least 30 minutes.
+                        Prepare the Batter:
+                        
+                        In another bowl, mix all-purpose flour, cornflour, baking powder, and a pinch of salt.
+                        Add water gradually to make a thick batter, ensuring there are no lumps.
+                        Dip the marinated fish pieces in the batter, ensuring they are well-coated.
+                        Fry the Fish:
+                        
+                        Heat oil in a pan for deep frying.
+                        Fry the fish pieces until they turn golden brown and crisp.
+                        Remove and place them on absorbent paper to drain excess oil.
+                        Prepare the Sauce:
+                        
+                        In a separate pan, heat 2 tablespoons of oil.
+                        Add ginger-garlic paste and sauté until the raw smell disappears.
+                        Add sliced onions, bell peppers, and green chilies. Stir-fry until they are slightly tender but still have a crunch.
+                        Make the Sauce:
+                        
+                        Add soy sauce, red chili sauce, tomato ketchup, vinegar, sugar, and salt. Mix well.
+                        Pour in 1 cup of water and let the sauce simmer for a few minutes until it thickens slightly.
+                        Combine Fish with Sauce:
+                        
+                        Add the fried fish to the sauce and toss gently until the fish pieces are well-coated.
+                        Garnish and Serve:
+                        
+                        Garnish with chopped spring onions and fresh coriander leaves.
+                        Serve hot as a starter or with steamed rice/noodles.">
+                        <img src="https://i.ytimg.com/vi/UwSzlA_kiqQ/maxresdefault.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Fish Chilli</h3>
+                            <p>Fish Chilli is a popular Indo-Chinese dish that combines the flavors of Indian and Chinese cuisine.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Soya Cutlet" data-ingredients="
+                            1 cup soya granules or chunks
+                            2 cups boiled and mashed potatoes
+                            1 large onion, finely chopped
+                            1/2 cup green peas (optional)
+                            2 green chilies, finely chopped
+                            1 tablespoon ginger-garlic paste
+                            1/2 teaspoon turmeric powder
+                            1 teaspoon red chili powder
+                            1 teaspoon garam masala
+                            1 teaspoon cumin powder
+                            Salt to taste
+                            1/4 cup fresh coriander leaves, chopped
+                            2 tablespoons cornflour or all-purpose flour
+                            Bread crumbs for coating
+                            Oil for frying"
+                        data-recipe=
+                        "Prepare Soya Granules:
+
+                        Boil the soya granules or chunks in hot water for about 5-7 minutes.
+                        Drain the water and squeeze out any excess water from the soya.
+                        Mash Potatoes:
+                        
+                        Boil and mash the potatoes thoroughly. Ensure there are no lumps.
+                        Combine Ingredients:
+                        
+                        In a large mixing bowl, combine the mashed potatoes, boiled soya granules, chopped onions, green peas (if using), green chilies, ginger-garlic paste, turmeric powder, red chili powder, garam masala, cumin powder, salt, and chopped coriander leaves.
+                        Mix and Shape:
+                        
+                        Mix all the ingredients well to form a uniform mixture.
+                        Take a portion of the mixture and shape it into small, flat cutlets.
+                        Coat with Flour and Bread Crumbs:
+                        
+                        In a small bowl, make a thin paste using cornflour or all-purpose flour and water.
+                        Dip each cutlet in the flour paste and then coat it with bread crumbs, ensuring they are well-covered.
+                        Shallow or Deep Fry:
+                        
+                        Heat oil in a pan for shallow or deep frying.
+                        Fry the cutlets until they turn golden brown on both sides.
+                        Drain Excess Oil:
+                        
+                        Place the fried cutlets on absorbent paper to drain any excess oil.
+                        Serve Hot:
+                        
+                        Serve the soya cutlets hot with mint chutney or tomato ketchup.">
+                        <img src="https://www.bigbasket.com/media/uploads/recipe/w-l/1055_1.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Soya Cutlet</h3>
+                            <p>Soya Cutlet is a vegetarian snack made with soya granules or chunks along with mashed potatoes and spices.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Goan Fish Curry" data-ingredients="
+                    For Marination:
+                        500 grams fish (pomfret, kingfish, or any firm white fish), cleaned and cut into pieces
+                        1 teaspoon turmeric powder
+                        1 teaspoon red chili powder
+                        Salt to taste
+                        For the Curry:
+                        1 cup grated coconut
+                        1 large onion, finely chopped
+                        2 tomatoes, chopped
+                        2 green chilies, slit
+                        1 tablespoon tamarind paste
+                        1 teaspoon mustard seeds
+                        1 teaspoon cumin seeds
+                        5-6 fenugreek seeds
+                        4-5 dry red chilies
+                        4-5 garlic cloves, minced
+                        1-inch ginger, minced
+                        1 tablespoon coriander powder
+                        1/2 teaspoon turmeric powder
+                        1/2 teaspoon red chili powder
+                        A small bunch of fresh coriander leaves, chopped
+                        2 tablespoons oil
+                        Salt to taste"
+                        data-recipe=
+                        "Marinate the Fish:
+
+                        In a bowl, combine the fish pieces with turmeric powder, red chili powder, and salt. Let it marinate for about 30 minutes.
+                        Prepare Masala Paste:
+                        
+                        Grind the grated coconut, chopped onion, tomatoes, green chilies, tamarind paste, mustard seeds, cumin seeds, fenugreek seeds, dry red chilies, garlic, and ginger into a smooth paste. Add a little water if needed.
+                        Cook the Masala:
+                        
+                        Heat oil in a pan. Add the ground masala paste, coriander powder, turmeric powder, and red chili powder.
+                        Cook the masala on medium heat, stirring constantly, until the oil starts to separate from the mixture.
+                        Add Water:
+                        
+                        Add water to achieve the desired consistency for the curry. Bring it to a boil.
+                        Add Fish:
+                        
+                        Gently add the marinated fish pieces to the boiling curry. Be careful not to break the fish.
+                        Simmer:
+                        
+                        Reduce the heat to low and let the curry simmer until the fish is cooked through. This usually takes about 10-15 minutes.
+                        Adjust Seasoning:
+                        
+                        Taste the curry and adjust salt and spice levels as needed. If it's too tangy, you can balance it with a bit of sugar.
+                        Finish with Coriander:
+                        
+                        Add chopped fresh coriander leaves and simmer for an additional 2-3 minutes.
+                        Serve Hot:
+                        
+                        Serve the Goan Fish Curry hot with steamed rice or traditional Goan bread like poi or pav.">
+                        <img src="https://static.toiimg.com/thumb/55224612.cms?imgsize=539861&width=800&height=800" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Goan Fish Curry</h3>
+                            <p>Goan Fish Curry is a flavorful and tangy curry from the coastal state of Goa in India.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Undhiyu" data-ingredients="For Undhiyu Mix:
+                    1 cup surti papdi (fresh pigeon peas), peeled
+                    1 cup small eggplants, slit into four without separating the segments
+                    1 cup small potatoes, peeled and halved
+                    1 cup sweet potatoes, peeled and cubed
+                    1 cup purple yam (ratalu), peeled and cubed
+                    1 cup raw banana, peeled and cubed
+                    1 cup fresh tuvar (pigeon pea) beans, shelled
+                    1 cup green beans, chopped into 2-inch pieces
+                    1 cup grated coconut
+                    2 tablespoons sesame seeds
+                    2 tablespoons groundnuts (peanuts), roasted and crushed
+                    1 tablespoon ginger-green chili paste
+                    1 teaspoon turmeric powder
+                    1 teaspoon red chili powder
+                    1 teaspoon coriander-cumin powder
+                    Salt to taste
+                    2 tablespoons oil
+                    For Tempering:
+                    2 tablespoons oil
+                    1 teaspoon mustard seeds
+                    1 teaspoon cumin seeds
+                    A pinch of asafoetida (hing)
+                    For Garnish:
+                    Fresh coriander leaves, chopped"
+                            data-recipe=
+                            "Prepare Vegetables:
+
+                            Clean, peel, and chop all the vegetables as mentioned in the ingredients list.
+                            Prepare Undhiyu Mix:
+                            
+                            In a large mixing bowl, combine surti papdi, eggplants, potatoes, sweet potatoes, purple yam, raw banana, tuvar beans, green beans, grated coconut, sesame seeds, groundnuts, ginger-green chili paste, turmeric powder, red chili powder, coriander-cumin powder, salt, and oil. Mix everything well.
+                            Stuff Eggplants:
+                            
+                            Stuff the slit eggplants with a portion of the prepared mix.
+                            Assemble:
+                            
+                            Place the mixed vegetables in a heavy-bottomed pan or a traditional undhiyu matla (clay pot).
+                            Cooking:
+                            
+                            Cook the undhiyu mix on a low flame, stirring occasionally. Add a little water if needed to prevent sticking. Cook until the vegetables are tender.
+                            Prepare Tempering:
+                            
+                            In a separate small pan, heat oil for tempering. Add mustard seeds, cumin seeds, and asafoetida. Allow them to splutter.
+                            Add Tempering:
+                            
+                            Pour the tempering over the cooked undhiyu and mix well.
+                            Garnish:
+                            
+                            Garnish with fresh coriander leaves.
+                            Serve:
+                            
+                            Serve hot Undhiyu with puris or rotis.">
+                            <img src="https://mdfoods.net/wp-content/uploads/2022/12/Undhiyu.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Undhiyu</h3>
+                                <p>Undhiyu is a traditional Gujarati mixed vegetable dish that is often prepared during the winter season when various winter vegetables are available. </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                    <div class="recipe-card" data-title="Rabri" data-ingredients="
+                    1 liter full-fat milk
+                    1/2 cup sugar (adjust to taste)
+                    1/2 teaspoon cardamom powder
+                    A handful of chopped nuts (almonds, pistachios, cashews), for garnish
+                    A pinch of saffron strands (optional)"
+                        data-recipe=
+                        "Boil the Milk:
+
+                        In a heavy-bottomed pan, bring the milk to a boil over medium heat. Stir continuously to avoid the milk sticking to the bottom of the pan.
+                        Simmer and Reduce:
+
+                        Once the milk comes to a boil, reduce the heat to low and let it simmer. Keep stirring occasionally to prevent the milk from forming a skin.
+                        Collect Malai:
+
+                        As the milk simmers, you will notice a layer of malai (cream) forming on the surface. Gently collect this malai and push it to the sides of the pan. Continue simmering and collecting the malai.
+                        Add Sugar:
+
+                        After the milk has reduced to about half, add sugar to it. Stir well to dissolve the sugar.
+                        Continue Simmering:
+
+                        Continue simmering and stirring until the rabri reaches a thick and creamy consistency. This process can take some time, and the volume of the milk will significantly reduce.
+                        Add Cardamom and Saffron:
+
+                        Add cardamom powder and saffron strands (if using) to the rabri. Stir well to incorporate the flavors.
+                        Garnish:
+
+                        Once the rabri has thickened to your desired consistency, turn off the heat. Garnish with chopped nuts.
+                        Serve:
+
+                        Rabri can be served warm or chilled. If serving chilled, refrigerate it for a few hours before serving.
+                        Optional Step (Layered Rabri):
+
+                        For a traditional layered rabri, you can pour a layer of reduced milk into a serving dish, add a layer of sugar, nuts, and cardamom powder, and repeat the process until you achieve the desired layers.">
+                        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/rabri-rabdi.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Rabri</h3>
+                            <p>Rabri is a popular Indian dessert made by reducing and thickening milk.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Shahi Tukda" data-ingredients="
+                    For Shahi Tukda:
+4 slices of bread (white or brown), cut diagonally
+Ghee or oil for deep frying
+For Sugar Syrup:
+1 cup sugar
+1/2 cup water
+A few saffron strands (optional)
+1/2 teaspoon cardamom powder
+For Rabri (Sweetened Milk):
+1 liter full-fat milk
+1/2 cup sugar
+1/2 teaspoon cardamom powder
+A handful of chopped nuts (almonds, pistachios, cashews)"
+                        data-recipe=
+                        "Prepare Sugar Syrup:
+                        Boil Sugar Syrup:
+                        
+                        In a saucepan, combine sugar and water. Bring it to a boil, stirring until the sugar dissolves.
+                        Add saffron strands and cardamom powder to the syrup. Simmer for a few more minutes until it reaches a slightly sticky consistency.
+                        Cool Sugar Syrup:
+                        
+                        Allow the sugar syrup to cool. It will thicken further as it cools.
+                        Fry Bread Slices:
+                        Fry the Bread:
+                        Heat ghee or oil in a pan over medium heat.
+                        Fry the bread slices until they are golden brown and crisp on both sides.
+                        Remove excess oil by placing the fried bread slices on paper towels.
+                        Prepare Rabri:
+                        Boil Milk:
+                        
+                        In a separate pan, bring the milk to a boil. Stir continuously to prevent it from sticking to the bottom.
+                        Thicken Milk:
+                        
+                        Once the milk comes to a boil, reduce the heat and let it simmer, stirring occasionally.
+                        Add sugar and cardamom powder. Continue simmering until the milk thickens to a rabri consistency.
+                        Add Nuts:
+                        
+                        Add chopped nuts to the thickened milk. Stir well and turn off the heat.
+                        Assemble Shahi Tukda:
+                        Soak Bread in Sugar Syrup:
+                        
+                        Dip the fried bread slices into the cooled sugar syrup for a few seconds. Ensure both sides are well-coated but not too soggy.
+                        Arrange in Serving Dish:
+                        
+                        Place the soaked bread slices in a serving dish in a single layer.
+                        Top with Rabri:
+                        
+                        Pour the prepared rabri over the bread slices, ensuring they are well-covered.
+                        Garnish:
+                        
+                        Garnish with additional chopped nuts and saffron strands if desired.
+                        Serve:
+                        
+                        Serve Shahi Tukda warm or chilled.">
+                        <img src="https://www.allrecipes.com/thmb/DZcOtahgWa724puYujobEJIdigY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2311160-shahi-tukra-indian-bread-puddin-Allrecipes-Community-4x3-1-de2d94029cd34adca1ee281d65e16d62.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Shahi Tukda</h3>
+                            <p>Shahi Tukda is a popular Indian dessert that consists of deep-fried bread slices soaked in sugar syrup and topped with thickened sweetened milk (rabri) and garnished with nuts. </p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    
+
+                </div>
+                
+            </section>
+            <section id="appetizers" class="recipe-categories">
+                <h2>Appetizers</h2>
+                <div class="cardcontainer">
+
+                    
+                        
+                        <div class="recipe-card" data-title="Achaari Chicken Tikka" data-ingredients="
+                        for Achaari Chicken Tikka Recipe -
+                        Boneless chicken cut into 1 inch pieces 400 grams :
+                        Lemon juice 1 tablespoon :
+                        Salt to taste :
+                        Ginger-garlic paste 1 tablespoon :
+                        Red chilli powder 2 teaspoons :
+                        Butter 2 tablespoons :
+                        Gram flour (besan) 1 tablespoon :
+                        Hung yogurt 1 cup :
+                        Mustard oil 2 tablespoons :
+                        Oil for shallow frying :
+                        Chaat masala to sprinkle :
+                        Fresh mint sprigs for garnishing :
+                        Onion rings to serve :
+                        Lemon wedges to serve :
+                        Spice mix :
+                        Mustard seeds 1 teaspoon :
+                        Fennel seeds (saunf) 1 teaspoon :
+                        Onion seeds (kalonji) 1 teaspoon :
+                        Fenugreek seeds (methi dana) ½ teaspoon :
+                        Black salt (kala namak) ½ teaspoon :"
+                            data-recipe=
+                            "__Step 1  
+                            
+                            Take chicken pieces in a bowl. Add lemon juice, salt, ginger-garlic paste and chilli powder and mix well. Set aside for 15-20 minutes.
+                            ___Step 2
+                            Heat butter in a non-stick pan. Add gram flour and sauté till fragrant. Remove from heat and set aside.
+                            ___Step 3
+                            To make spice mix, dry roast mustard seeds, fennel seeds, onion seeds and fenugreek seeds for a minute. Transfer into a mortar, add black salt and crush coarsely with a pestle.
+                            ___Step 4
+                            Take yogurt in another bowl. Add roasted gram flour, mustard oil, crushed spice mix and salt and whisk well.
+                            ___Step 5
+                            Add chicken pieces and mix well. Refrigerate to marinate for 1-2 hours.
+                            ___Step 6
+                            Heat some oil in a non-stick pan. Add marinated chicken pieces and shallow-fry till golden and fully cooked.
+                            ___Step 7
+                            Sprinkle chaat masala on top, garnish with mint sprig and serve hot with onion rings and lemon wedges.">
+                            <img src="https://i.ytimg.com/vi/Z_qmEPJb7HI/maxresdefault.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Achari Chicken Tikka</h3>
+                                <p>Boneless chicken marinated in yogurt and achaari masala and shallow-fried</p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        
+                    
+
+
+                        <div class="recipe-card" data-title="Papdi Chaat" data-ingredients="
+                        For Papdis:
+1 cup semolina (sooji or fine rava)
+2 tablespoons all-purpose flour (maida)
+1/4 teaspoon baking soda
+A pinch of salt
+Water (as needed for the dough)
+Oil for deep frying
+For Assembling Chaat:
+1 cup boiled and mashed potatoes
+1 cup boiled chickpeas
+1 cup chopped tomatoes
+1 cup chopped onions
+1/2 cup chopped fresh coriander leaves
+1/2 cup sweetened yogurt (whisked)
+1/4 cup tamarind chutney
+1/4 cup green chutney (coriander-mint chutney)
+Chaat masala to taste
+Red chili powder to taste
+Roasted cumin powder to taste
+Sev (crisp chickpea noodles) for garnish
+Pomegranate seeds for garnish (optional)"
+                            data-recipe=
+                            "For Papdis:
+                            Prepare Dough:
+                            
+                            In a bowl, mix semolina, all-purpose flour, baking soda, and a pinch of salt.
+                            Add water gradually and knead the mixture into a firm dough.
+                            Roll and Cut:
+                            
+                            Divide the dough into small portions and roll each portion into a small disc.
+                            Use a fork or a knife to make small impressions on each disc.
+                            Fry:
+                            
+                            Heat oil for deep frying. Fry the papdis until they are golden brown and crisp.
+                            Remove excess oil by placing the fried papdis on paper towels.
+                            Assembling Papdi Chaat:
+                            Prepare Chutneys:
+                            
+                            Make tamarind chutney and green chutney if not already prepared.
+                            Assemble:
+                            
+                            Arrange the papdis on a serving plate.
+                            Top each papdi with boiled and mashed potatoes, boiled chickpeas, chopped tomatoes, and onions.
+                            Add Yogurt:
+                            
+                            Drizzle sweetened yogurt over the arranged papdis and ingredients.
+                            Add Chutneys:
+                            
+                            Spoon tamarind chutney and green chutney over the papdis to add tanginess and flavor.
+                            Sprinkle Spices:
+                            
+                            Sprinkle chaat masala, red chili powder, and roasted cumin powder over the papdis.
+                            Garnish:
+                            
+                            Garnish the papdi chaat with chopped fresh coriander leaves, sev, and pomegranate seeds (if using).
+                            Serve:
+                            
+                            Serve the Papdi Chaat immediately and enjoy the burst of flavors and textures.">
+                            <img src="https://www.carolinescooking.com/wp-content/uploads/2023/07/papdi-chaat-featured-pic-sq.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Papdi Chaat</h3>
+                                <p>Papdi chaat is a popular North Indian street food snack filled with a variety of mouth-watering textures and flavors.</p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Rajma Galouti Kebab" data-ingredients="
+                        1 cup cooked rajma (kidney beans), mashed
+1 cup boiled and mashed potatoes
+1 medium-sized onion, finely chopped
+2 tablespoons besan (gram flour)
+2 tablespoons chopped coriander leaves
+1 tablespoon ginger-garlic paste
+1 teaspoon garam masala
+1 teaspoon red chili powder
+1/2 teaspoon turmeric powder
+1/2 teaspoon cumin powder
+Salt to taste
+Oil or ghee for shallow frying
+Skewers for grilling (optional)
+                        "
+                            data-recipe=
+                            "Prepare Rajma:
+
+                            Cook the rajma until they are soft. Drain any excess water and mash them well.
+                            Mix Ingredients:
+                            
+                            In a large mixing bowl, combine the mashed rajma, mashed potatoes, chopped onion, besan, coriander leaves, ginger-garlic paste, garam masala, red chili powder, turmeric powder, cumin powder, and salt.
+                            Knead into a Dough:
+                            
+                            Mix all the ingredients well and knead the mixture into a smooth dough-like consistency. Ensure that the mixture is well combined.
+                            Rest the Dough:
+                            
+                            Cover the mixture and let it rest in the refrigerator for at least 1-2 hours. This helps the flavors to meld and the mixture to firm up.
+                            Shape into Kebabs:
+                            
+                            After the resting period, take the mixture out and divide it into equal portions. Shape each portion into flat, round kebabs.
+                            Shallow Fry:
+                            
+                            Heat oil or ghee in a pan for shallow frying.
+                            Place the kebabs in the hot oil and cook until they are golden brown and crispy on both sides.
+                            Grill (Optional):
+                            
+                            If you prefer, you can also grill the kebabs on skewers. Brush the kebabs with oil and grill until they are cooked through.
+                            Serve Hot:
+                            
+                            Arrange the Rajma Galouti Kebabs on a serving platter.
+                            Serve them hot with mint chutney, yogurt, or your favorite dipping sauce.">
+                            <img src="https://static.toiimg.com/thumb/resizemode-4,width-1600,height-900,msid-95206694/watch-how-to-make-rajma-galouti-kebab.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Rajma Galouti Kebab</h3>
+                                <p>Galouti Kebab is traditionally made with minced meat, such as lamb or goat, you can create a vegetarian version using kidney beans (rajma). </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Dhokla" data-ingredients="
+                        For Dhokla Batter:
+                        1 cup gram flour (besan)
+                        1/2 cup semolina (sooji)
+                        1 cup yogurt
+                        1 teaspoon ginger-green chili paste
+                        1/2 teaspoon turmeric powder
+                        Salt to taste
+                        1 teaspoon sugar
+                        1 teaspoon fruit salt or 1/2 teaspoon baking soda
+                        1 tablespoon oil
+                        For Tempering:
+                        2 tablespoons oil
+                        1 teaspoon mustard seeds
+                        1 teaspoon cumin seeds
+                        A pinch of asafoetida (hing)
+                        8-10 curry leaves
+                        2 green chilies, slit
+                        2 tablespoons chopped coriander leaves
+                        For Garnish:
+                        Grated coconut (optional)
+                        Chopped coriander leaves
+                        "
+                            data-recipe=
+                            "Prepare Dhokla Batter:
+                            Mix Dry Ingredients:
+                            
+                            In a large mixing bowl, combine gram flour, semolina, turmeric powder, salt, and sugar.
+                            Add Wet Ingredients:
+                            
+                            Add yogurt and ginger-green chili paste to the dry ingredients. Mix well to form a smooth batter.
+                            Ferment the Batter:
+                            
+                            Allow the batter to ferment for at least 4-6 hours or overnight. The batter should have a thick pouring consistency after fermentation.
+                            Add Fruit Salt or Baking Soda:
+                            
+                            Just before steaming, add fruit salt or baking soda to the batter. If using fruit salt, mix it gently and quickly. Ensure the batter is frothy.
+                            Grease Steaming Pan:
+                            
+                            Grease a steaming pan or dhokla plate with oil.
+                            Steam the Dhokla:
+                            
+                            Pour the batter into the greased pan. Steam the batter for about 15-20 minutes or until a toothpick inserted comes out clean.
+                            Prepare Tempering:
+                            
+                            In a small pan, heat oil for tempering. Add mustard seeds, cumin seeds, asafoetida, curry leaves, and slit green chilies. Let them splutter.
+                            Pour Tempering:
+                            
+                            Pour the tempering over the steamed dhokla. Ensure that the tempering covers the entire surface.
+                            Cut and Garnish:
+                            
+                            Allow the dhokla to cool slightly, then cut it into squares or diamonds. Garnish with chopped coriander leaves and grated coconut if desired.
+                            Serve:
+                            
+                            Serve the dhokla warm with mint chutney or tamarind chutney.">
+                            <img src="https://www.archanaskitchen.com/images/archanaskitchen/1-Author/Smitha-Kalluraya/Rasawala_Dhokla_.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Dhokla</h3>
+                                <p>Dhokla is a popular and spongy steamed cake made from fermented batter, typically based on rice and chickpea flour.</p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Vada Pav" data-ingredients="
+                        For Potato Vada:
+                        4 large potatoes, boiled and mashed
+                        1 tablespoon oil
+                        1 teaspoon mustard seeds
+                        1 teaspoon cumin seeds
+                        1/2 teaspoon asafoetida (hing)
+                        1 tablespoon ginger-garlic paste
+                        2-3 green chilies, finely chopped
+                        A few curry leaves, chopped
+                        1/2 teaspoon turmeric powder
+                        1 teaspoon red chili powder
+                        Salt to taste
+                        1 tablespoon chopped coriander leaves
+                        1 tablespoon lemon juice
+                        Gram flour (besan) for coating
+                        Water for making batter
+                        Oil for deep frying
+                        For Assembling Vada Pav:
+                        Pav (soft bread rolls)
+                        Dry garlic chutney (made from garlic, dried coconut, and red chili powder)
+                        Green chutney (coriander-mint chutney)
+                        Tamarind chutney
+                        Fried green chilies (optional)
+                        Butter for toasting pav
+                        "
+                            data-recipe=
+                            "For Potato Vada:
+                            Prepare Potato Mixture:
+                            
+                            Heat oil in a pan. Add mustard seeds, cumin seeds, asafoetida, ginger-garlic paste, chopped green chilies, and curry leaves. Sauté until fragrant.
+                            Add turmeric powder, red chili powder, and mashed potatoes. Mix well.
+                            Add salt, chopped coriander leaves, and lemon juice. Mix thoroughly and let the mixture cool.
+                            Shape and Coat:
+                            
+                            Divide the potato mixture into equal portions and shape them into round patties.
+                            Prepare a batter by mixing gram flour with water to form a smooth consistency.
+                            Dip each potato patty into the batter, ensuring it's well-coated.
+                            Deep Fry:
+                            
+                            Heat oil for deep frying. Fry the coated potato patties until they are golden brown and crisp. Drain excess oil on paper towels.
+                            For Assembling Vada Pav:
+                            Prepare Pav:
+                            
+                            Cut the pav in the center, keeping one side intact (butterfly cut).
+                            Apply green chutney on one side and tamarind chutney on the other.
+                            Add Vada:
+                            
+                            Place a hot vada in the center of the pav.
+                            Sprinkle Chutney and Garlic Powder:
+                            
+                            Sprinkle dry garlic chutney on top of the vada. You can adjust the spiciness according to your taste.
+                            Optionally, add a fried green chili on top for extra spice.
+                            Close and Toast:
+                            
+                            Close the pav, press it gently, and toast it on a pan with butter until it turns golden brown.
+                            Serve Hot:
+                            
+                            Serve Vada Pav immediately with extra chutneys on the side.">
+                            <img src="https://www.cookwithmanali.com/wp-content/uploads/2018/04/Vada-Pav-500x375.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Vada Pav</h3>
+                                <p>Vada Pav is a popular street food in Maharashtra, India. It consists of a spicy mashed potato fritter (vada) sandwiched between a pav (soft bread roll) and typically served with chutneys and fried green chili. </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Paneer Tikka" data-ingredients="
+                        For Marination:
+                        250 grams paneer, cut into cubes
+                        1 cup thick yogurt
+                        1 tablespoon ginger-garlic paste
+                        1 tablespoon gram flour (besan)
+                        1 tablespoon lemon juice
+                        1 teaspoon red chili powder
+                        1 teaspoon turmeric powder
+                        1 teaspoon garam masala
+                        1 teaspoon cumin powder
+                        Salt to taste
+                        1 tablespoon oil
+                        For Tandoori Masala:
+                        1 teaspoon red chili powder
+                        1 teaspoon coriander powder
+                        1/2 teaspoon cumin powder
+                        1/2 teaspoon chaat masala
+                        1/2 teaspoon garam masala
+                        Salt to taste
+                        Other Ingredients:
+                        Bell peppers, onions, and tomatoes, cut into chunks (optional for skewering)
+                        Oil for basting
+                        "
+                            data-recipe=
+                            "Prepare Marinade:
+
+                            In a bowl, mix together yogurt, ginger-garlic paste, gram flour, lemon juice, red chili powder, turmeric powder, garam masala, cumin powder, salt, and oil to make the marinade.
+                            Marinate Paneer:
+                            
+                            Add paneer cubes to the marinade and coat them well. Let it marinate for at least 1-2 hours, or overnight in the refrigerator for better flavors.
+                            Prepare Tandoori Masala:
+                            
+                            In a small bowl, mix together red chili powder, coriander powder, cumin powder, chaat masala, garam masala, and salt to make the tandoori masala.
+                            Skewering:
+                            
+                            Preheat your grill or oven to a high temperature.
+                            If using skewers, thread marinated paneer cubes, bell peppers, onions, and tomatoes onto skewers, alternating them.
+                            Grill or Bake:
+                            
+                            Grill or bake the skewers until the paneer is charred and cooked through. Baste with oil occasionally to keep them moist.
+                            If using an oven, you can place the skewers on a baking sheet and bake at 200°C (400°F) for about 15-20 minutes or until done.
+                            Sprinkle Tandoori Masala:
+                            
+                            Once cooked, sprinkle the prepared tandoori masala over the hot paneer skewers.
+                            Serve Hot:
+                            
+                            Serve Paneer Tikka hot with mint chutney and lemon wedges.">
+                            <img src="https://geekrobocook.com/wp-content/uploads/2021/03/12.-Grilled-Paneer.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Paneer Tikka</h3>
+                                <p>Paneer Tikka is a popular Indian appetizer where marinated cubes of paneer (Indian cottage cheese) are skewered and grilled or baked until they are charred and flavorful. </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Fish Chilli" data-ingredients="
+                        
+                            For Marination: 
+
+                                | 500 grams boneless fish fillets (cut into bite-sized pieces)
+                              | 1 tablespoon ginger-garlic paste
+                              | 1 tablespoon soy sauce
+                               | 1 tablespoon red chili sauce
+                               | 1/2 teaspoon black pepper powder
+                               | Salt to taste
+                                
+                            For Batter:
+                            | 1/2 cup all-purpose flour (maida)
+                            | 1/4 cup cornflour
+                            |  1/2 teaspoon baking powder
+                            |  Water (as needed)
+                            |  Salt to taste
+                            For the Sauce:
+                            | 2 tablespoons oil
+                            |  1 tablespoon ginger-garlic paste
+                            |   1 cup bell peppers (capsicum), thinly sliced (you can use a mix of colors)
+                            |   1 cup onions, thinly sliced
+                            |   2-3 green chilies, finely chopped
+                            |   2 tablespoons soy sauce
+                            |    1 tablespoon red chili sauce
+                            |   1 tablespoon tomato ketchup
+                            |   1 teaspoon vinegar
+                            |   1 teaspoon sugar
+                            |   Salt to taste
+                            |   1 cup water
+                            For Garnish:
+                            |   Spring onions, finely chopped
+                            |    Fresh coriander leaves, chopped"
+
+                        data-recipe=
+                        "Marinate the Fish:
+
+                        In a bowl, mix fish pieces with ginger-garlic paste, soy sauce, red chili sauce, black pepper powder, and salt.
+                        Let it marinate for at least 30 minutes.
+                        Prepare the Batter:
+                        
+                        In another bowl, mix all-purpose flour, cornflour, baking powder, and a pinch of salt.
+                        Add water gradually to make a thick batter, ensuring there are no lumps.
+                        Dip the marinated fish pieces in the batter, ensuring they are well-coated.
+                        Fry the Fish:
+                        
+                        Heat oil in a pan for deep frying.
+                        Fry the fish pieces until they turn golden brown and crisp.
+                        Remove and place them on absorbent paper to drain excess oil.
+                        Prepare the Sauce:
+                        
+                        In a separate pan, heat 2 tablespoons of oil.
+                        Add ginger-garlic paste and sauté until the raw smell disappears.
+                        Add sliced onions, bell peppers, and green chilies. Stir-fry until they are slightly tender but still have a crunch.
+                        Make the Sauce:
+                        
+                        Add soy sauce, red chili sauce, tomato ketchup, vinegar, sugar, and salt. Mix well.
+                        Pour in 1 cup of water and let the sauce simmer for a few minutes until it thickens slightly.
+                        Combine Fish with Sauce:
+                        
+                        Add the fried fish to the sauce and toss gently until the fish pieces are well-coated.
+                        Garnish and Serve:
+                        
+                        Garnish with chopped spring onions and fresh coriander leaves.
+                        Serve hot as a starter or with steamed rice/noodles.">
+                        <img src="https://i.ytimg.com/vi/UwSzlA_kiqQ/maxresdefault.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Fish Chilli</h3>
+                            <p>Fish Chilli is a popular Indo-Chinese dish that combines the flavors of Indian and Chinese cuisine.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Soya Cutlet" data-ingredients="
+                    1 cup soya granules or chunks
+                    2 cups boiled and mashed potatoes
+                    1 large onion, finely chopped
+                    1/2 cup green peas (optional)
+                    2 green chilies, finely chopped
+                    1 tablespoon ginger-garlic paste
+                    1/2 teaspoon turmeric powder
+                    1 teaspoon red chili powder
+                    1 teaspoon garam masala
+                    1 teaspoon cumin powder
+                    Salt to taste
+                    1/4 cup fresh coriander leaves, chopped
+                    2 tablespoons cornflour or all-purpose flour
+                    Bread crumbs for coating
+                    Oil for frying"
+                data-recipe=
+                "Prepare Soya Granules:
+
+                Boil the soya granules or chunks in hot water for about 5-7 minutes.
+                Drain the water and squeeze out any excess water from the soya.
+                Mash Potatoes:
+                
+                Boil and mash the potatoes thoroughly. Ensure there are no lumps.
+                Combine Ingredients:
+                
+                In a large mixing bowl, combine the mashed potatoes, boiled soya granules, chopped onions, green peas (if using), green chilies, ginger-garlic paste, turmeric powder, red chili powder, garam masala, cumin powder, salt, and chopped coriander leaves.
+                Mix and Shape:
+                
+                Mix all the ingredients well to form a uniform mixture.
+                Take a portion of the mixture and shape it into small, flat cutlets.
+                Coat with Flour and Bread Crumbs:
+                
+                In a small bowl, make a thin paste using cornflour or all-purpose flour and water.
+                Dip each cutlet in the flour paste and then coat it with bread crumbs, ensuring they are well-covered.
+                Shallow or Deep Fry:
+                
+                Heat oil in a pan for shallow or deep frying.
+                Fry the cutlets until they turn golden brown on both sides.
+                Drain Excess Oil:
+                
+                Place the fried cutlets on absorbent paper to drain any excess oil.
+                Serve Hot:
+                
+                Serve the soya cutlets hot with mint chutney or tomato ketchup.">
+                <img src="https://www.bigbasket.com/media/uploads/recipe/w-l/1055_1.jpg" alt="Featured Recipe Image">
+                <div class="recipe-details">
+                    <h3>Soya Cutlet</h3>
+                    <p>Soya Cutlet is a vegetarian snack made with soya granules or chunks along with mashed potatoes and spices.</p>
+                    <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                </div>
+            </div>
+                       
+                    
+
+                </div>
+                
+
+            </section>
+
+
+
+
+
+            <section id="maindish" class="recipe-categories">
+                <h2>Main Dishes</h2>
+
+                <div class="cardcontainer">
+
+                    <div class="recipe-card" data-title="Biryani" data-ingredients="
+                    For Marinating Chicken:
+                    500 grams chicken, cut into pieces
+                    1 cup yogurt
+                    1 tablespoon ginger-garlic paste
+                    1 teaspoon red chili powder
+                    1/2 teaspoon turmeric powder
+                    1 teaspoon garam masala
+                    Salt to taste
+                    Fresh coriander and mint leaves, chopped (for garnish)
+                    For Rice:
+                    2 cups basmati rice, soaked for 30 minutes
+                    Water for boiling
+                    1-2 bay leaves
+                    4-5 green cardamom pods
+                    4-5 cloves
+                    1 cinnamon stick
+                    Salt to taste
+                    For Biryani Masala:
+                    2 large onions, thinly sliced
+                    2 tomatoes, chopped
+                    1/2 cup cooking oil or ghee
+                    1 teaspoon cumin seeds
+                    1 bay leaf
+                    1 cinnamon stick
+                    4-5 green cardamom pods
+                    4-5 cloves
+                    1/2 teaspoon black pepper powder
+                    1/2 teaspoon red chili powder
+                    1/2 teaspoon turmeric powder
+                    1 teaspoon biryani masala powder (optional)
+                    Salt to taste
+                    For Layering:
+                    Fried onions (birista)
+                    Saffron strands soaked in warm milk
+                    Ghee or butter for drizzling
+                    Fresh coriander and mint leaves, chopped"
+                            data-recipe=
+                            "Marinating Chicken:
+                            In a bowl, mix together yogurt, ginger-garlic paste, red chili powder, turmeric powder, garam masala, and salt.
+                            Add chicken pieces and coat them well with the marinade. Marinate for at least 2 hours, preferably overnight in the refrigerator.
+                            Heat oil in a pan and sauté the marinated chicken until it is partially cooked. Set aside.
+                            Cooking Rice:
+                            Boil soaked basmati rice with bay leaves, cardamom pods, cloves, cinnamon stick, and salt until it's 70-80% cooked. Drain the water and set aside.
+                            Biryani Masala:
+                            In a large pan or pot, heat oil or ghee. Add cumin seeds, bay leaf, cinnamon stick, cardamom pods, and cloves. Sauté until the spices release their aroma.
+                            Add sliced onions and cook until golden brown.
+                            Add chopped tomatoes and cook until they are soft and the oil starts to separate.
+                            Add black pepper powder, red chili powder, turmeric powder, and biryani masala powder. Mix well.
+                            Add the partially cooked chicken to the masala. Cook until the chicken is tender and the masala coats the chicken pieces.
+                            Layering Biryani:
+                            Grease a heavy-bottomed pot. Layer half of the partially cooked rice at the bottom.
+                            Place the cooked chicken masala over the rice layer.
+                            Sprinkle fried onions (birista) and chopped coriander-mint leaves.
+                            Layer the remaining rice on top.
+                            Drizzle saffron-infused milk and ghee/butter on the rice. Garnish with more fried onions and chopped coriander-mint leaves.
+                            Cover the pot tightly with a lid or aluminum foil.
+                            Dum Cooking:
+                            Cook on low heat (dum) for about 20-25 minutes until the rice is fully cooked and aromatic.
+                            Serving:
+                            Gently fluff the biryani with a fork, mixing the layers.
+                            Serve hot biryani with raita, salad, or your favorite side dish.">
+                            <img src="https://recipes.net/wp-content/uploads/2023/05/air-fryer-chicken-biryani-recipe_6968eb6ab4a5ae22d136dab86c9ea8af.jpeg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Biryani</h3>
+                                <p>Biryani is a mixed rice dish that was thought to have originated from Iran or South India.</p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        
+                    
+
+
+                        <div class="recipe-card" data-title="Sarson Da Saag with Makki di roti" data-ingredients="
+                        Sarson Da Saag:
+                        Ingredients:
+                        500 grams mustard greens (sarson)
+                        250 grams spinach leaves
+                        1 small bunch fenugreek leaves (methi), optional
+                        2 green chilies, chopped
+                        1-inch ginger, grated
+                        3-4 cloves garlic, minced
+                        2 tablespoons cornmeal (makki ka atta)
+                        Salt to taste
+                        1/2 teaspoon turmeric powder
+                        1 teaspoon red chili powder
+                        1 teaspoon garam masala
+                        2 tablespoons ghee or clarified butter
+                        1 large onion, finely chopped (for tempering)
+                        2 tomatoes, chopped
+                        1/2 cup fresh cream (optional)
+                        1 tablespoon lemon juice
+
+
+                        Makki di Roti:
+                        Ingredients:
+                        2 cups makki ka atta (cornmeal)
+                        Warm water (as needed)
+                        Salt to taste
+                        Ghee or butter for cooking
+                        "
+                            data-recipe=
+                            "Wash and chop mustard greens, spinach, and fenugreek leaves (if using).
+                            Boil the greens in water with salt until they are soft. Drain excess water and blend them into a coarse puree.
+                            In a pan, heat ghee and add chopped green chilies, grated ginger, and minced garlic. Sauté for a minute.
+                            Add chopped onions and cook until they turn golden brown.
+                            Stir in the chopped tomatoes and cook until the oil separates.
+                            Add turmeric powder, red chili powder, and garam masala. Mix well.
+                            Pour in the coarsely pureed greens and stir.
+                            Add cornmeal (makki ka atta) to thicken the saag. Cook on low heat, stirring occasionally.
+                            Adjust salt and continue cooking until the saag is well-cooked and the flavors meld.
+                            If desired, add fresh cream for richness and cook for an additional few minutes.
+                            Finish with a drizzle of lemon juice. Sarson Da Saag is ready.
+                            
+                            In a bowl, combine makki ka atta, salt, and warm water to make a soft and pliable dough.
+Divide the dough into small portions and shape them into balls.
+Flatten each ball into a disc on a clean surface.
+Cook the rotis on a hot griddle or tawa with ghee or butter until they are golden brown on both sides.
+Serving:
+Serve hot Sarson Da Saag with Makki di Roti, and optionally, garnish with a dollop of butter or ghee on top of the saag. Enjoy this wholesome and flavorful Punjabi delicacy!
+                            ">
+                            <img src="https://www.bigbasket.com/media/uploads/recipe/w-l/1826_1_1.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Sarson Da Saag with Makki di roti</h3>
+                                <p>A classic Punjabi dish - sarson da saag te makki di roti. Best had with some white butter, jaggery or honey.</p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Goan Fish Curry" data-ingredients="
+                    For Marination:
+                        500 grams fish (pomfret, kingfish, or any firm white fish), cleaned and cut into pieces
+                        1 teaspoon turmeric powder
+                        1 teaspoon red chili powder
+                        Salt to taste
+                        For the Curry:
+                        1 cup grated coconut
+                        1 large onion, finely chopped
+                        2 tomatoes, chopped
+                        2 green chilies, slit
+                        1 tablespoon tamarind paste
+                        1 teaspoon mustard seeds
+                        1 teaspoon cumin seeds
+                        5-6 fenugreek seeds
+                        4-5 dry red chilies
+                        4-5 garlic cloves, minced
+                        1-inch ginger, minced
+                        1 tablespoon coriander powder
+                        1/2 teaspoon turmeric powder
+                        1/2 teaspoon red chili powder
+                        A small bunch of fresh coriander leaves, chopped
+                        2 tablespoons oil
+                        Salt to taste"
+                        data-recipe=
+                        "Marinate the Fish:
+
+                        In a bowl, combine the fish pieces with turmeric powder, red chili powder, and salt. Let it marinate for about 30 minutes.
+                        Prepare Masala Paste:
+                        
+                        Grind the grated coconut, chopped onion, tomatoes, green chilies, tamarind paste, mustard seeds, cumin seeds, fenugreek seeds, dry red chilies, garlic, and ginger into a smooth paste. Add a little water if needed.
+                        Cook the Masala:
+                        
+                        Heat oil in a pan. Add the ground masala paste, coriander powder, turmeric powder, and red chili powder.
+                        Cook the masala on medium heat, stirring constantly, until the oil starts to separate from the mixture.
+                        Add Water:
+                        
+                        Add water to achieve the desired consistency for the curry. Bring it to a boil.
+                        Add Fish:
+                        
+                        Gently add the marinated fish pieces to the boiling curry. Be careful not to break the fish.
+                        Simmer:
+                        
+                        Reduce the heat to low and let the curry simmer until the fish is cooked through. This usually takes about 10-15 minutes.
+                        Adjust Seasoning:
+                        
+                        Taste the curry and adjust salt and spice levels as needed. If it's too tangy, you can balance it with a bit of sugar.
+                        Finish with Coriander:
+                        
+                        Add chopped fresh coriander leaves and simmer for an additional 2-3 minutes.
+                        Serve Hot:
+                        
+                        Serve the Goan Fish Curry hot with steamed rice or traditional Goan bread like poi or pav.">
+                        <img src="https://static.toiimg.com/thumb/55224612.cms?imgsize=539861&width=800&height=800" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Goan Fish Curry</h3>
+                            <p>Goan Fish Curry is a flavorful and tangy curry from the coastal state of Goa in India.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                        <div class="recipe-card" data-title="Dal Makhani" data-ingredients="
+                        For Cooking Lentils:
+                        1 cup whole black lentils (urad dal)
+                        1/4 cup red kidney beans (rajma)
+                        4 cups water for soaking
+                        4 cups water for cooking
+                        Salt to taste
+                        For Dal Makhani:
+                        2 tablespoons ghee or butter
+                        1 tablespoon oil
+                        1 large onion, finely chopped
+                        2 teaspoons ginger-garlic paste
+                        2 large tomatoes, pureed
+                        1/2 cup tomato puree (optional for extra richness)
+                        1 teaspoon cumin seeds
+                        1 teaspoon red chili powder
+                        1/2 teaspoon turmeric powder
+                        1 tablespoon coriander powder
+                        1 teaspoon garam masala
+                        1/2 cup fresh cream
+                        Salt to taste
+                        Chopped coriander leaves for garnish
+                        "
+                            data-recipe=
+                            "Cooking Lentils:
+                            Wash whole black lentils (urad dal) and red kidney beans (rajma) under running water.
+                            Soak them in 4 cups of water for at least 6-8 hours or overnight.
+                            After soaking, drain the water and rinse the lentils and beans.
+                            In a pressure cooker, add soaked lentils, kidney beans, 4 cups of water, and salt. Pressure cook until they are soft and fully cooked (usually takes about 20-25 minutes after the first whistle).
+                            Making Dal Makhani:
+                            In a large pan, heat ghee and oil. Add cumin seeds and let them splutter.
+                            Add finely chopped onions and sauté until they turn golden brown.
+                            Add ginger-garlic paste and cook until the raw aroma disappears.
+                            Add pureed tomatoes, tomato puree (if using), red chili powder, turmeric powder, coriander powder, and garam masala. Cook the masala until the oil separates from it.
+                            Add the cooked lentils and kidney beans along with some of their cooking water to the masala. Mix well.
+                            Simmer the dal on low heat, stirring occasionally. Mash some of the lentils with the back of the spoon to thicken the consistency.
+                            Add fresh cream and salt. Stir well and let it simmer for an additional 15-20 minutes, allowing the flavors to blend.
+                            Garnish with chopped coriander leaves.">
+                            <img src="https://images.aws.nestle.recipes/original/4c9aa68c71815ec2a542513268ea25cf_Dal_Makhani_-_Plating.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Dal Makhani</h3>
+                                <p>Dal Makhani is a rich and creamy lentil dish that originated in the Punjab region of India. </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Dhansak" data-ingredients="
+                        For Dhansak Masala:
+                        2 tablespoons coriander seeds
+                        1 tablespoon cumin seeds
+                        1 tablespoon fenugreek seeds
+                        1 tablespoon mustard seeds
+                        1 tablespoon black peppercorns
+                        4-5 cloves
+                        4-5 green cardamom pods
+                        2 black cardamom pods
+                        2 cinnamon sticks
+                        1 teaspoon turmeric powder
+                        1 tablespoon red chili powder
+                        For Dhansak:
+                        1 cup mixed lentils (tuvar dal, masoor dal, and moong dal), soaked for 2 hours
+                        500 grams chicken, cut into pieces
+                        1 cup vegetables (pumpkin, eggplant, okra), chopped
+                        1 large onion, finely chopped
+                        2 tomatoes, chopped
+                        1/2 cup chopped fresh coriander leaves
+                        1/2 cup chopped fresh mint leaves
+                        1 tablespoon ginger-garlic paste
+                        1 tablespoon tamarind pulp
+                        2 tablespoons ghee or oil
+                        Salt to taste
+                        "
+                            data-recipe=
+                            "For Dhansak Masala:
+                            Dry roast coriander seeds, cumin seeds, fenugreek seeds, mustard seeds, black peppercorns, cloves, green cardamom pods, black cardamom pods, and cinnamon sticks until they release their aroma.
+                            Grind the roasted spices into a fine powder.
+                            Mix turmeric powder and red chili powder with the ground spices to make the Dhansak masala.
+                            For Dhansak:
+                            In a pressure cooker, combine the soaked lentils, chicken pieces, chopped vegetables, chopped onion, chopped tomatoes, and ginger-garlic paste.
+                            Add the prepared Dhansak masala, tamarind pulp, chopped coriander leaves, and chopped mint leaves.
+                            Add salt to taste and enough water to cover the ingredients.
+                            Pressure cook until the lentils are cooked and the meat is tender (about 3-4 whistles).
+                            Once the pressure is released, open the cooker and check the consistency. If it's too thick, add more water and simmer for a few more minutes.
+                            In a separate pan, heat ghee or oil. Add a little Dhansak masala and sauté for a minute.
+                            Add this tempered masala to the Dhansak and mix well..">
+                            <img src="https://ichef.bbci.co.uk/food/ic/food_16x9_832/recipes/vegetable_dhansak_03473_16x9.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Dhansak</h3>
+                                <p>Dhansak is a traditional Parsi dish that combines elements of Persian and Indian cuisine. It is a flavorful and hearty dish made with a mixture of lentils, vegetables, meat (usually mutton or chicken), and spices.</p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Undhiyu" data-ingredients="For Undhiyu Mix:
+                    1 cup surti papdi (fresh pigeon peas), peeled
+                    1 cup small eggplants, slit into four without separating the segments
+                    1 cup small potatoes, peeled and halved
+                    1 cup sweet potatoes, peeled and cubed
+                    1 cup purple yam (ratalu), peeled and cubed
+                    1 cup raw banana, peeled and cubed
+                    1 cup fresh tuvar (pigeon pea) beans, shelled
+                    1 cup green beans, chopped into 2-inch pieces
+                    1 cup grated coconut
+                    2 tablespoons sesame seeds
+                    2 tablespoons groundnuts (peanuts), roasted and crushed
+                    1 tablespoon ginger-green chili paste
+                    1 teaspoon turmeric powder
+                    1 teaspoon red chili powder
+                    1 teaspoon coriander-cumin powder
+                    Salt to taste
+                    2 tablespoons oil
+                    For Tempering:
+                    2 tablespoons oil
+                    1 teaspoon mustard seeds
+                    1 teaspoon cumin seeds
+                    A pinch of asafoetida (hing)
+                    For Garnish:
+                    Fresh coriander leaves, chopped"
+                            data-recipe=
+                            "Prepare Vegetables:
+
+                            Clean, peel, and chop all the vegetables as mentioned in the ingredients list.
+                            Prepare Undhiyu Mix:
+                            
+                            In a large mixing bowl, combine surti papdi, eggplants, potatoes, sweet potatoes, purple yam, raw banana, tuvar beans, green beans, grated coconut, sesame seeds, groundnuts, ginger-green chili paste, turmeric powder, red chili powder, coriander-cumin powder, salt, and oil. Mix everything well.
+                            Stuff Eggplants:
+                            
+                            Stuff the slit eggplants with a portion of the prepared mix.
+                            Assemble:
+                            
+                            Place the mixed vegetables in a heavy-bottomed pan or a traditional undhiyu matla (clay pot).
+                            Cooking:
+                            
+                            Cook the undhiyu mix on a low flame, stirring occasionally. Add a little water if needed to prevent sticking. Cook until the vegetables are tender.
+                            Prepare Tempering:
+                            
+                            In a separate small pan, heat oil for tempering. Add mustard seeds, cumin seeds, and asafoetida. Allow them to splutter.
+                            Add Tempering:
+                            
+                            Pour the tempering over the cooked undhiyu and mix well.
+                            Garnish:
+                            
+                            Garnish with fresh coriander leaves.
+                            Serve:
+                            
+                            Serve hot Undhiyu with puris or rotis.">
+                            <img src="https://mdfoods.net/wp-content/uploads/2022/12/Undhiyu.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Undhiyu</h3>
+                                <p>Undhiyu is a traditional Gujarati mixed vegetable dish that is often prepared during the winter season when various winter vegetables are available. </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Litti Chokha" data-ingredients="
+                        For Litti:
+                        Ingredients:
+                        For Litti Dough:
+                        2 cups whole wheat flour (atta)
+                        1 tablespoon ghee
+                        Water (as needed)
+                        Salt to taste
+                        For Litti Filling:
+                        1 cup roasted gram flour (sattu)
+                        1 teaspoon ajwain (carom seeds)
+                        1 teaspoon kalonji (nigella seeds)
+                        1 teaspoon chopped green chilies
+                        1 tablespoon chopped ginger
+                        2 tablespoons chopped coriander leaves
+                        1 tablespoon ghee
+                        Salt to taste
+                        For Chokha:
+                        Ingredients:
+                        2 large eggplants (baingan)
+                        4 medium-sized tomatoes
+                        2-3 green chilies, finely chopped
+                        1 tablespoon chopped ginger
+                        1 tablespoon chopped garlic
+                        1 tablespoon mustard oil
+                        Salt to taste
+                        Chopped coriander leaves for garnish
+                        "
+                            data-recipe=
+                            "For Litti:
+                            Prepare Litti Dough:
+                            
+                            In a mixing bowl, combine whole wheat flour, ghee, and salt.
+                            Gradually add water and knead the mixture into a firm dough. Cover and let it rest for 30 minutes.
+                            Prepare Litti Filling:
+                            
+                            In a bowl, mix roasted gram flour (sattu), ajwain, kalonji, chopped green chilies, chopped ginger, chopped coriander leaves, ghee, and salt.
+                            Add a little water if needed to make the filling moist.
+                            Shape Litti:
+                            
+                            Divide the dough into small balls. Flatten each ball into a small disc.
+                            Place a portion of the sattu filling in the center and seal the edges to form a round ball.
+                            Bake Litti:
+                            
+                            Preheat the oven to 180°C (356°F).
+                            Place the litti on a baking tray and bake for about 20-25 minutes or until they are golden brown. Alternatively, you can cook them on a traditional chulha or tandoor.
+                            For Chokha:
+                            Roast Vegetables:
+                            
+                            Roast eggplants and tomatoes directly on the flame until their skin is charred and they become soft.
+                            Peel the skin from eggplants and tomatoes. Mash them in a bowl.
+                            Prepare Chokha:
+                            
+                            Add chopped green chilies, chopped ginger, chopped garlic, mustard oil, and salt to the mashed eggplants and tomatoes.
+                            Mix well and garnish with chopped coriander leaves.
+                            Serving:
+                            Serve Litti Chokha:
+                            Serve Litti with Chokha. You can also serve it with ghee, yogurt, or pickle on the side.">
+                            <img src="https://img-global.cpcdn.com/recipes/38bb1f4b32eabc41/680x482cq70/litti-chokha-recipe-main-photo.jpg" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Litti Chokha</h3>
+                                <p>Litti Chokha is a traditional dish from the Indian state of Bihar. It consists of round wheat flour balls (litti) stuffed with roasted gram flour and spices, served with a flavorful and spicy mashed vegetable mix (chokha). </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+                        <div class="recipe-card" data-title="Bhindi Masala" data-ingredients="
+                        500 grams okra (bhindi), washed and dried
+                        2 tablespoons oil
+                        1 teaspoon cumin seeds
+                        1 large onion, finely chopped
+                        1 tablespoon ginger-garlic paste
+                        2 medium-sized tomatoes, chopped
+                        1 teaspoon turmeric powder
+                        1 teaspoon red chili powder
+                        1 teaspoon coriander powder
+                        1/2 teaspoon cumin powder
+                        1/2 teaspoon garam masala
+                        Salt to taste
+                        Fresh coriander leaves for garnish
+                        Lemon wedges (optional)
+                        "
+                            data-recipe=
+                            "Prepare Okra:
+
+                            Trim the ends of the okra and slit them lengthwise. If the okra is too long, you can cut it into smaller pieces.
+                            Sauté Okra:
+                            
+                            Heat oil in a pan. Add the okra and sauté on medium heat until it's partially cooked and starts to brown. Stir occasionally to avoid sticking. Once done, remove the okra from the pan and set it aside.
+                            Temper Cumin Seeds:
+                            
+                            In the same pan, add cumin seeds. Let them splutter.
+                            Cook Onion and Ginger-Garlic Paste:
+                            
+                            Add finely chopped onions and sauté until they turn golden brown.
+                            Add ginger-garlic paste and cook for another minute until the raw aroma disappears.
+                            Add Tomatoes and Spices:
+                            
+                            Add chopped tomatoes to the pan and cook until they become soft and the oil starts to separate.
+                            Stir in turmeric powder, red chili powder, coriander powder, cumin powder, garam masala, and salt. Mix well.
+                            Combine Okra with Masala:
+                            
+                            Add the sautéed okra back to the pan. Mix it with the masala, ensuring that the okra is well-coated.
+                            Cook:
+                            
+                            Cover the pan and cook on low to medium heat for about 10-15 minutes, stirring occasionally. Ensure the okra is cooked through and tender.
+                            Garnish and Serve:
+                            
+                            Garnish with fresh coriander leaves.
+                            Optionally, squeeze some lemon juice over the Bhindi Masala before serving.
+                            Serve Hot:
+                            
+                            Serve Bhindi Masala hot with roti, naan, or rice.">
+                            <img src="https://www.anveshan.farm/cdn/shop/articles/BhindiMasala.jpg?v=1690790485" alt="Featured Recipe Image">
+                            <div class="recipe-details">
+                                <h3>Bhindi Masala</h3>
+                                <p>Bhindi Masala is a delicious Indian dish made with okra (bhindi) cooked in a flavorful blend of spices. </p>
+                                <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                            </div>
+                        </div>
+
+                </div>
+                
+    
+            </section>
+            <section id="dessert" class="recipe-categories">
+
+                <h2>Desserts</h2>
+
+                <div class="cardcontainer">
+                    
+                    <div class="recipe-card" data-title="Shrikhand" data-ingredients="
+                    
+                        Ingredients:
+                        2 cups thick yogurt (curd)
+                        1/2 cup powdered sugar (adjust according to taste)
+                        A pinch of saffron strands, soaked in 1 tablespoon warm milk
+                        1/2 teaspoon cardamom powder
+                        Chopped nuts (almonds, pistachios) for garnish
+                        Saffron strands for garnish (optional)"
+                        data-recipe=
+                        "Strain Yogurt:
+
+                        Take a muslin cloth or a fine sieve and place it over a bowl.
+                        Pour the thick yogurt into the cloth/sieve and tie the ends of the cloth. Allow it to hang for 4-6 hours or overnight to drain excess whey. This will result in thick, strained yogurt.
+                        Prepare Saffron Milk:
+                        
+                        Soak a pinch of saffron strands in warm milk and set it aside. This will add a nice color and flavor to the Shrikhand.
+                        Prepare Shrikhand:
+                        
+                        In a mixing bowl, take the strained yogurt.
+                        Add powdered sugar and mix well until the sugar is completely dissolved.
+                        Flavor with Saffron and Cardamom:
+                        
+                        Add the saffron-soaked milk, cardamom powder, and mix thoroughly.
+                        Chill:
+                        
+                        Refrigerate the Shrikhand for at least 2-3 hours to allow the flavors to meld and for a nice chilled consistency.
+                        Garnish:
+                        
+                        Before serving, garnish with chopped nuts and saffron strands.
+                        Serve:
+                        
+                        Serve Shrikhand chilled as a dessert. It pairs well with puris or as a standalone sweet d">
+                        <img src="https://recipes.net/wp-content/uploads/2021/03/shrikhand-recipe.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Shrikhand</h3>
+                            <p>Shrikhand is a popular Indian dessert made from strained yogurt, sugar, and flavored with saffron, cardamom, and sometimes with the addition of nuts.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    
+                
+
+
+                    <div class="recipe-card" data-title="Shahi Tukda" data-ingredients="
+                    For Shahi Tukda:
+                        4 slices of bread (white or brown), cut diagonally
+                        Ghee or oil for deep frying
+                        For Sugar Syrup:
+                        1 cup sugar
+                        1/2 cup water
+                        A few saffron strands (optional)
+                        1/2 teaspoon cardamom powder
+                        For Rabri (Sweetened Milk):
+                        1 liter full-fat milk
+                        1/2 cup sugar
+                        1/2 teaspoon cardamom powder
+                        A handful of chopped nuts (almonds, pistachios, cashews)"
+                        data-recipe=
+                        "Prepare Sugar Syrup:
+                        Boil Sugar Syrup:
+                        
+                        In a saucepan, combine sugar and water. Bring it to a boil, stirring until the sugar dissolves.
+                        Add saffron strands and cardamom powder to the syrup. Simmer for a few more minutes until it reaches a slightly sticky consistency.
+                        Cool Sugar Syrup:
+                        
+                        Allow the sugar syrup to cool. It will thicken further as it cools.
+                        Fry Bread Slices:
+                        Fry the Bread:
+                        Heat ghee or oil in a pan over medium heat.
+                        Fry the bread slices until they are golden brown and crisp on both sides.
+                        Remove excess oil by placing the fried bread slices on paper towels.
+                        Prepare Rabri:
+                        Boil Milk:
+                        
+                        In a separate pan, bring the milk to a boil. Stir continuously to prevent it from sticking to the bottom.
+                        Thicken Milk:
+                        
+                        Once the milk comes to a boil, reduce the heat and let it simmer, stirring occasionally.
+                        Add sugar and cardamom powder. Continue simmering until the milk thickens to a rabri consistency.
+                        Add Nuts:
+                        
+                        Add chopped nuts to the thickened milk. Stir well and turn off the heat.
+                        Assemble Shahi Tukda:
+                        Soak Bread in Sugar Syrup:
+                        
+                        Dip the fried bread slices into the cooled sugar syrup for a few seconds. Ensure both sides are well-coated but not too soggy.
+                        Arrange in Serving Dish:
+                        
+                        Place the soaked bread slices in a serving dish in a single layer.
+                        Top with Rabri:
+                        
+                        Pour the prepared rabri over the bread slices, ensuring they are well-covered.
+                        Garnish:
+                        
+                        Garnish with additional chopped nuts and saffron strands if desired.
+                        Serve:
+                        
+                        Serve Shahi Tukda warm or chilled.">
+                        <img src="https://www.allrecipes.com/thmb/DZcOtahgWa724puYujobEJIdigY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2311160-shahi-tukra-indian-bread-puddin-Allrecipes-Community-4x3-1-de2d94029cd34adca1ee281d65e16d62.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Shahi Tukda</h3>
+                            <p>Shahi Tukda is a popular Indian dessert that consists of deep-fried bread slices soaked in sugar syrup and topped with thickened sweetened milk (rabri) and garnished with nuts. </p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Falooda" data-ingredients="
+                    For Rose Syrup:
+                    1/2 cup rose syrup
+                    2 tablespoons sugar (adjust to taste)
+                    1 cup water
+                    For Falooda Base:
+                    1/4 cup falooda sev (vermicelli), cooked as per package instructions
+                    1 tablespoon basil seeds (sabja), soaked in water
+                    2 cups chilled milk
+                    2 scoops vanilla ice cream
+                    Chopped nuts (almonds, pistachios) for garnish
+                    Cherries or fruit slices for garnish (optional)"
+                        data-recipe=
+                        "Prepare Rose Syrup:
+                        In a bowl, mix rose syrup, sugar, and water to make the rose syrup solution. Adjust the sugar quantity according to your taste. Chill the syrup in the refrigerator.
+                        Prepare Falooda Base:
+                        Cook falooda sev (vermicelli) according to the package instructions. Once cooked, rinse it with cold water and let it cool.
+                        
+                        Soak basil seeds (sabja) in water for about 15-20 minutes until they swell up.
+                        
+                        In serving glasses, assemble the falooda by adding a layer of cooked falooda sev at the bottom.
+                        
+                        Pour the chilled rose syrup over the sev layer.
+                        
+                        Add soaked basil seeds on top of the rose syrup layer.
+                        
+                        Pour chilled milk into the glass, leaving some space at the top.
+                        
+                        Top the falooda with a scoop of vanilla ice cream.
+                        
+                        Garnish with chopped nuts and fruit slices or cherries if desired.
+                        
+                        Serve the falooda immediately with a long spoon and a straw to enjoy all the layers.">
+                        <img src="https://flavoredbyfatima.com/wp-content/uploads/2021/04/00E20A08-B6A4-4BD0-B1A3-20D6F5D16DB2-scaled.jpeg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Falooda</h3>
+                            <p>Falooda is a refreshing and delightful Indian dessert beverage that originated in Persia</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    <div class="recipe-card" data-title="Rabri" data-ingredients="
+                    1 liter full-fat milk
+                    1/2 cup sugar (adjust to taste)
+                    1/2 teaspoon cardamom powder
+                    A handful of chopped nuts (almonds, pistachios, cashews), for garnish
+                    A pinch of saffron strands (optional)"
+                        data-recipe=
+                        "Boil the Milk:
+
+                        In a heavy-bottomed pan, bring the milk to a boil over medium heat. Stir continuously to avoid the milk sticking to the bottom of the pan.
+                        Simmer and Reduce:
+
+                        Once the milk comes to a boil, reduce the heat to low and let it simmer. Keep stirring occasionally to prevent the milk from forming a skin.
+                        Collect Malai:
+
+                        As the milk simmers, you will notice a layer of malai (cream) forming on the surface. Gently collect this malai and push it to the sides of the pan. Continue simmering and collecting the malai.
+                        Add Sugar:
+
+                        After the milk has reduced to about half, add sugar to it. Stir well to dissolve the sugar.
+                        Continue Simmering:
+
+                        Continue simmering and stirring until the rabri reaches a thick and creamy consistency. This process can take some time, and the volume of the milk will significantly reduce.
+                        Add Cardamom and Saffron:
+
+                        Add cardamom powder and saffron strands (if using) to the rabri. Stir well to incorporate the flavors.
+                        Garnish:
+
+                        Once the rabri has thickened to your desired consistency, turn off the heat. Garnish with chopped nuts.
+                        Serve:
+
+                        Rabri can be served warm or chilled. If serving chilled, refrigerate it for a few hours before serving.
+                        Optional Step (Layered Rabri):
+
+                        For a traditional layered rabri, you can pour a layer of reduced milk into a serving dish, add a layer of sugar, nuts, and cardamom powder, and repeat the process until you achieve the desired layers.">
+                        <img src="https://www.indianhealthyrecipes.com/wp-content/uploads/2020/10/rabri-rabdi.jpg" alt="Featured Recipe Image">
+                        <div class="recipe-details">
+                            <h3>Rabri</h3>
+                            <p>Rabri is a popular Indian dessert made by reducing and thickening milk.</p>
+                            <a href="#" class="view-recipe" onclick="openPopup('your_image_url.jpg', 'Delicious Dish', 'Ingredient 1, Ingredient 2, Ingredient 3', 'Lorem ipsum dolor sit amet...')">View Recipe</a>
+                        </div>
+                    </div>
+                    
+                 
+
+
+                   
+
+                </div>
+                
+
+
+            </section>
+    
+                
+                
+            
+            
+
+        </section>
+
+
+
+    
+        
+    </main>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to Your Recipe Website! We're passionate about sharing delicious recipes to inspire your culinary journey.</p>
+            
+            <p>Founded in 2024, we believe cooking should be enjoyable for everyone. Our diverse collection of recipes, from quick meals to gourmet delights, caters to all tastes and skill levels.</p>
+            
+            <p>Join our community to connect with fellow food enthusiasts. Our team of chefs and experts work to make each dish both delightful and approachable.</p>
+            
+            <p>Thank you for being part of our flavorful adventure. Let's cook and celebrate the joy of good food together!</p>
+            
+            <!-- Feel free to add more content as needed -->
+        </div>
+    </section>
+    
+    
+
+    
+
+    <div class="popup" id="recipe-popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <img id="popup-img" src="" alt="Recipe Image">
+            <h2 id="popup-title">Recipe Title</h2>
+            <p id="popup-ingredients">Ingredients: </p>
+            <p id="popup-recipe">Recipe: </p>
+        </div>
+    </div>
+    
+
+        
+    
+
+    <footer class="footer">
+        <div id="contact" class="containerfooter"></div>
+
+        <section class="contact-section">
+            <h3>Contact Us</h3>
+            <div class="contact-person">
+                <h4>Aayush Chouhan</h4>
+                <p>Email: <a href="mailto:aayushchouhan7050@gmail.com">aayushchouhan7050@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/aayush-chouhan/" target="_blank">Aayush Chouhan's LinkedIn</a></p>
+            </div>
+            <div class="contact-person">
+                <h4>Anshita Rathore</h4>
+                <p>Email: <a href="mailto:anshrath091102@gmail.com">anshrath091102@gmail.com</a></p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/anshita-rathore-2b7b84247" target="_blank">Anshita Rathore's LinkedIn</a></p>
+            </div>
+        </section>
+        <hr>
+        <p>&copy; 2024 Recipe Book. All rights reserved.</p>
+    </footer>
+
+
+    <script src="scripts.js"></script>
+
+    
+
+
+
+
+
+
+    
+
+
+    
+</body>
+</html>
